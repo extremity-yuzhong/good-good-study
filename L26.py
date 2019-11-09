@@ -1,4 +1,11 @@
 class Solution(object):
+    """
+    有序数组
+    用快慢指针，快指针指向重复数字的最后一个，慢指针指向要和快指针交换数字的位置。
+    时间复杂度：O(n)
+    空间复杂度：O(1)
+    """
+
     def removeDuplicates(self, nums):
         """
         :type nums: List[int]
