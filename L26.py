@@ -4,7 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        if not len(nums): return 0
+        if not nums: return 0
         length = len(nums)
         r = 1
         s = 0
